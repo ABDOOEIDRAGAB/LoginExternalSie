@@ -1,0 +1,238 @@
+html {
+  font-size: 14px;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  overflow-x:hidden;
+}
+/**/
+
+.header {
+    background-color: #0a2950;
+    width: 100%;
+    height: 100px;
+}
+
+    .header div h1 {
+        font-size: 45px;
+        text-align: center;
+        width: 180px;
+        color: white;
+        height: 45px;
+        cursor: pointer;
+    }
+
+@media only screen and (max-width: 767px) {
+    .header div h1 {
+        font-size: 30px;
+        width: 130px;
+        height: 45px;
+        padding: 10px;
+    }
+
+    .header .logo {
+        margin-left: 27%;
+    }
+}
+
+    .header a {
+        background-color: black;
+        margin-top: 5px;
+        color: white;
+        border-radius: 20%;
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+        .header a:hover {
+            color: black;
+            background-color: white;
+        }
+
+    @media only screen and (max-width: 767px) {
+        .header {
+            height: 200px;
+        }
+
+            .header a {
+                margin-left: 30%;
+                margin-bottom: 10px;
+            }
+
+            .header img {
+                margin-left: 20%;
+                margin-bottom: 10px;
+            }
+    }
+
+    /* */
+    .section1 {
+        width: 100%;
+    }
+
+        .section1 img {
+            width: 100%;
+        }
+
+    /* */
+    .section2 {
+        width: 100%;
+        background-color: #f2ecec;
+        padding-top: 100px;
+        cursor: pointer;
+    }
+
+        .section2 p:first-child {
+            font-size: 30px;
+            padding-top: 20px;
+        }
+
+        .section2 div img {
+            color: black;
+            font-size: 15px;
+            margin-left: 33%;
+        }
+
+        .section2 div p {
+            padding-top: 30px;
+        }
+
+    @media only screen and (min-width: 1200px) {
+        .section2 {
+            height: 400px;
+        }
+    }
+    /* */
+    .section3 {
+        width: 100%;
+        padding-top: 100px;
+        cursor: pointer;
+    }
+
+        .section3 .row div {
+            background-color: #0a2950;
+            border: 5px solid white;
+            padding-top: 20px;
+        }
+
+        .section3 img, .section3 .row p {
+            margin-left: 40%;
+            padding-top: 30px;
+        }
+
+        .section3 div p {
+            color: white;
+        }
+
+    @media only screen and (min-width: 1200px) {
+        .section3 p {
+            font-size: 20px;
+            line-height: 35px;
+        }
+
+        .section3 .row p {
+            margin-left: 33%;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        .section3 p {
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+    /* */
+    .image-container {
+        position: relative;
+        display: inline-block;
+    }
+
+        .image-container img {
+            display: block;
+            width: 100%;
+        }
+
+    .image-container {
+        position: relative;
+        width: 500px;
+    }
+
+    .section4 {
+        width: 100%;
+        line-height: 50px;
+        padding-top: 50px;
+        cursor: pointer;
+    }
+    /* */
+
+    .section6 {
+        width: 100%;
+        cursor: pointer;
+        padding-top: 30px;
+    }
+
+        .section6 p {
+            font-size: 30px;
+            text-decoration: underline;
+            text-underline-offset: 10px;
+            padding-bottom: 50px;
+            margin: 10px;
+        }
+
+        .section6 img {
+            height: 100px;
+            width: 100%;
+        }
+
+    @media only screen and (max-width: 767px) {
+        .section6 img {
+            margin-bottom: 15px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+
+        .section6 img {
+            margin: 10px;
+            padding: 2px;
+        }
+    }
+
+    /***/
+    .section5 {
+        background-color: #0a2950;
+        width: 100%;
+        cursor: pointer;
+        margin-top: 100px;
+        color: white;
+    }
+
+        .section5 .fa-2xl {
+            color: red;
+            cursor: pointer;
+            color: white;
+            background-color: red;
+            padding: 7px;
+            border-radius: 50%;
+        }
+
+        .section5 span {
+            display: block;
+            font-size: 15px;
+        }
+
+    @media only screen and (min-width: 1200px) {
+
+        .section5 {
+            padding-top: 30px;
+        }
+    }
